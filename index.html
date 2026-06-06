@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Kanhaiya Sweets · Snacks · Bakery – Authentic Indian Mithai</title>
+  <meta name="description" content="Kanhaiya Sweets, Snacks & Bakery – crafting authentic Indian mithai with pure ghee and fresh ingredients. Visit us for Gulab Jamun, Kaju Barfi, Ladoo, and premium gift boxes." />
+  <meta name="keywords" content="Kanhaiya sweets, mithai shop, Indian sweets, sweet shop Kolkata, gulab jamun, kaju barfi, ladoo, snacks, bakery, gift boxes" />
+  <meta name="author" content="Kanhaiya Sweets" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kanhaiya Sweets · Snacks · Bakery" />
+  <meta property="og:description" content="Authentic Indian sweets crafted with pure ghee. Visit Kanhaiya for handcrafted mithai, snacks, and bakery items." />
+  <meta property="og:image" content="shop-entrance.jpg" />
+  <meta property="og:site_name" content="Kanhaiya Sweets" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Kanhaiya Sweets · Snacks · Bakery",
+    "description": "Authentic Indian sweet shop crafting traditional mithai, snacks and bakery items.",
+    "url": "https://www.kanhaiyasweets.in",
+    "logo": "logo.png",
+    "image": "shop-entrance.jpg",
+    "telephone": "+91-XXXXXXXXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "YOUR STREET ADDRESS",
+      "addressLocality": "Kolkata",
+      "addressRegion": "West Bengal",
+      "addressCountry": "IN"
+    },
+    "servesCuisine": "Indian",
+    "priceRange": "₹₹",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "21:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "20:00" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "520" }
+  }
+  </script>
+</head>
+<body>
+
+<!-- ═══════════════════ NAV ═══════════════════ -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="#" class="nav-logo" aria-label="Kanhaiya Sweets home">
+      <img src="Logo-removebg-preview.png" alt="Kanhaiya Sweets · Snacks · Bakery" />
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#specialties">Specialties</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#location" class="nav-cta">Find Us</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section id="hero" aria-label="Welcome to Kanhaiya Sweets">
+  <div class="hero-bg">
+    <img src="shop-entrance2.jpg" alt="Kanhaiya Sweets shop beautifully decorated for opening" />
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content" style="width:100%">
+    <div class="container">
+      <!-- <span class="hero-badge">
+        <span class="dot">✦</span>
+        Sweets &nbsp;·&nbsp; Snacks &nbsp;·&nbsp; Bakery
+        <span class="dot">✦</span>
+      </span> -->
+
+      <h1 class="hero-title">
+        Where Every Bite<br />
+        <em>Tells a Story</em>
+      </h1>
+
+      <p class="hero-sub">
+        Handcrafted Indian sweets made fresh every morning — pure ghee, 
+        authentic recipes, and the warmth of tradition in every piece.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#specialties" class="btn btn-gold">Explore Sweets</a>
+        <a href="#location" class="btn btn-outline-gold">Visit Our Shop</a>
+      </div>
+
+      <div class="hero-divider" aria-hidden="true">Trusted since years</div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-lbl">Sweet Varieties</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-lbl">Pure Desi Ghee</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">15K+</span>
+          <span class="stat-lbl">Happy Customers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">4.9★</span>
+          <span class="stat-lbl">Customer Rating</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════ MARQUEE ═══════════════════ -->
+<div id="marquee" aria-hidden="true" role="presentation">
+  <div class="marquee-wrap">
+    <div class="marquee-track" id="mTrack">
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Gulab Jamun</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Kaju Barfi</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Motichoor Ladoo</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Gajar Halwa</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Rasgulla</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Jalebi</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Sandesh</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Chum Chum</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Peda</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Milk Cake</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Kheer Kadam</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Namkeen</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Fresh Bakery</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Gift Boxes</span>
+    </div>
+    <div class="marquee-track" aria-hidden="true">
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Gulab Jamun</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Kaju Barfi</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Motichoor Ladoo</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Gajar Halwa</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Rasgulla</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Jalebi</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Sandesh</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Chum Chum</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Peda</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Milk Cake</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Kheer Kadam</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Namkeen</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Fresh Bakery</span>
+      <span class="marquee-item"><span class="marquee-gem">◆</span>Gift Boxes</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
+<section id="about" class="section-pad" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-inner">
+
+      <div class="about-photos reveal">
+        <div class="about-photo">
+          <img src="shop-interior.jpg" alt="Kanhaiya Sweets elegant shop interior with seating" loading="lazy" />
+          <span class="about-photo-badge">Our Shop</span>
+        </div>
+        <div class="about-photo">
+          <img src="sweet-display.jpg" alt="Wide display counter filled with fresh Indian sweets" loading="lazy" />
+          <span class="about-photo-badge">Fresh Daily</span>
+        </div>
+        <div class="about-photo">
+          <img src="shop-crowd.jpg" alt="Happy customers at Kanhaiya Sweets during opening" loading="lazy" />
+          <span class="about-photo-badge">Loved by All</span>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <span class="label reveal">Our Story</span>
+        <h2 class="heading heading-lg reveal reveal-delay-1" id="about-heading">
+          Crafted with Love,<br />Served with Pride
+        </h2>
+        <p class="body-text reveal reveal-delay-2">
+          At Kanhaiya Sweets, we believe that true mithai is made not just with ingredients — but with heart. 
+          Every sweet that leaves our kitchen carries the warmth of our tradition, the purity of desi ghee, 
+          and the skill of our master karigar.
+        </p>
+
+        <div class="about-pillars reveal reveal-delay-3">
+          <div class="pillar">
+            <!-- <span class="pillar-icon">🥛</span> -->
+            <div class="pillar-body">
+              <h4>100% Pure Ingredients</h4>
+              <p>Fresh milk, premium mawa, and pure desi ghee — sourced daily. No artificial flavours, ever.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <!-- <span class="pillar-icon">🤲</span> -->
+            <div class="pillar-body">
+              <h4>Handcrafted Every Morning</h4>
+              <p>Our skilled karigars start before dawn so every sweet is fresh when you arrive.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <!-- <span class="pillar-icon">🎁</span> -->
+            <div class="pillar-body">
+              <h4>Premium Gift Packaging</h4>
+              <p>Beautiful boxes for weddings, festivals, and corporate gifting — curated to delight.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#location" class="btn btn-outline-maroon reveal reveal-delay-4">Visit Our Shop →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ GALLERY ═══════════════════ -->
+<section id="gallery" class="section-pad" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="gallery-head">
+      <span class="label reveal">Our Space</span>
+      <h2 class="heading heading-lg reveal reveal-delay-1" id="gallery-heading">Step Inside Kanhaiya</h2>
+      <p class="body-text reveal reveal-delay-2" style="max-width:30rem;margin-top:0.5rem">
+        A warm, welcoming space where the aroma of fresh mithai greets you at the door.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="g-item reveal">
+        <img src="shop-entrance.jpg" alt="Kanhaiya Sweets grand entrance decorated with flowers and marigold garlands" loading="lazy" />
+        <div class="g-item-overlay"><span class="g-item-label">Grand Entrance</span></div>
+      </div>
+      <div class="g-item reveal reveal-delay-1">
+        <img src="shop-interior.jpg" alt="Elegant interior with chandelier and comfortable seating" loading="lazy" />
+        <div class="g-item-overlay"><span class="g-item-label">Elegant Interiors</span></div>
+      </div>
+      <div class="g-item reveal reveal-delay-2">
+        <img src="shop-crowd.jpg" alt="Customers enjoying the Kanhaiya Sweets experience" loading="lazy" />
+        <div class="g-item-overlay"><span class="g-item-label">Always Buzzing</span></div>
+      </div>
+      <div class="g-item reveal reveal-delay-3">
+        <img src="sweet-display.jpg" alt="Full display counter showcasing 50+ varieties of fresh sweets" loading="lazy" />
+        <div class="g-item-overlay"><span class="g-item-label">50+ Varieties</span></div>
+      </div>
+      <div class="g-item reveal reveal-delay-4">
+        <img src="shop-entrance.jpg" alt="Festive floral decoration at Kanhaiya Sweets" loading="lazy" />
+        <div class="g-item-overlay"><span class="g-item-label">Festive Décor</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ SPECIALTIES ═══════════════════ -->
+<section id="specialties" class="section-pad" aria-labelledby="spec-heading">
+  <div class="container">
+    <div style="margin-bottom:3.5rem">
+      <span class="label reveal">What We Make</span>
+      <h2 class="heading heading-lg reveal reveal-delay-1" id="spec-heading">Our Signature Specialties</h2>
+      <p class="body-text reveal reveal-delay-2" style="max-width:32rem;margin-top:0.5rem">
+        From time-tested classics to seasonal delights — made fresh, served with love.
+      </p>
+    </div>
+
+    <div class="spec-grid">
+
+      <article class="spec-card reveal" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🟤</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Gulab Jamun</h3>
+          <p class="spec-desc" itemprop="description">Soft khoya balls in rose-scented syrup — warm, melt-in-mouth perfection.</p>
+          <span class="spec-tag">Bestseller</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal reveal-delay-1" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🪨</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Kaju Barfi</h3>
+          <p class="spec-desc" itemprop="description">Premium cashew fudge topped with silver vark — the king of Indian sweets.</p>
+          <span class="spec-tag">Premium</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal reveal-delay-2" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🟡</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Motichoor Ladoo</h3>
+          <p class="spec-desc" itemprop="description">Delicate boondi ladoos with cardamom and chopped pistachios — festive favourite.</p>
+          <span class="spec-tag">Festival Special</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal reveal-delay-3" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">⚪</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Bengali Rasgulla</h3>
+          <p class="spec-desc" itemprop="description">Authentic spongy chhena puffs in light sugar syrup — as fresh as it gets.</p>
+          <span class="spec-tag">Fresh Daily</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🟠</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Gajar Ka Halwa</h3>
+          <p class="spec-desc" itemprop="description">Slow-cooked red carrots with full-fat milk, ghee, and dry fruits.</p>
+          <span class="spec-tag">Seasonal</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal reveal-delay-1" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🟡</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Crispy Jalebi</h3>
+          <p class="spec-desc" itemprop="description">Hot, crunchy spirals soaked in saffron syrup — best enjoyed fresh.</p>
+          <span class="spec-tag">Must Try</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal reveal-delay-2" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🥐</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Bakery Items</h3>
+          <p class="spec-desc" itemprop="description">Freshly baked breads, biscuits, and pastries made in-house every day.</p>
+          <span class="spec-tag">Bakery</span>
+        </div>
+      </article>
+
+      <article class="spec-card reveal reveal-delay-3" itemscope itemtype="https://schema.org/Product">
+        <div class="spec-img">🧆</div>
+        <div class="spec-body">
+          <h3 class="spec-name" itemprop="name">Namkeen & Snacks</h3>
+          <p class="spec-desc" itemprop="description">Crunchy, flavourful namkeen and snacks — the perfect savoury companion.</p>
+          <span class="spec-tag">Snacks</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ WHY US ═══════════════════ -->
+<section id="why" class="section-pad" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="why-inner">
+      <div class="why-text">
+        <span class="label reveal">Why Kanhaiya</span>
+        <h2 class="heading heading-lg reveal reveal-delay-1" id="why-heading" style="color:#fff;margin-bottom:1rem">
+          The Kanhaiya<br />Difference
+        </h2>
+        <p class="body-text reveal reveal-delay-2" style="color:rgba(255,255,255,0.5);max-width:22rem">
+          We don't just sell sweets — we create experiences. Every visit to Kanhaiya is a moment to cherish.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <!-- <div class="why-icon">🌿</div> -->
+          <div class="why-title">No Preservatives</div>
+          <div class="why-desc">Made fresh, sold fresh. No artificial preservatives or colours — ever.</div>
+        </div>
+        <div class="why-card reveal reveal-delay-1">
+          <!-- <div class="why-icon">🍶</div> -->
+          <div class="why-title">Pure Desi Ghee</div>
+          <div class="why-desc">Every sweet is cooked in 100% pure desi ghee for authentic taste.</div>
+        </div>
+        <div class="why-card reveal reveal-delay-2">
+          <!-- <div class="why-icon">✨</div> -->
+          <div class="why-title">Elegant Ambience</div>
+          <div class="why-desc">A beautifully designed shop with AC seating — shopping made comfortable.</div>
+        </div>
+        <div class="why-card reveal reveal-delay-3">
+          <!-- <div class="why-icon">🎀</div> -->
+          <div class="why-title">Gift Packaging</div>
+          <div class="why-desc">Premium boxes for every occasion — weddings, Diwali, Eid, and more.</div>
+        </div>
+        <div class="why-card reveal">
+          <!-- <div class="why-icon">📦</div> -->
+          <div class="why-title">Bulk Orders Welcome</div>
+          <div class="why-desc">Special rates and custom packaging for large corporate or wedding orders.</div>
+        </div>
+        <div class="why-card reveal reveal-delay-1">
+          <!-- <div class="why-icon">⭐</div> -->
+          <div class="why-title">4.9 Star Rated</div>
+          <div class="why-desc">Consistently loved by thousands of happy customers across the city.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+<section id="testimonials" class="section-pad" aria-labelledby="testi-heading">
+  <div class="container">
+    <div style="margin-bottom:3rem">
+      <span class="label reveal">What People Say</span>
+      <h2 class="heading heading-lg reveal reveal-delay-1" id="testi-heading">Customer Reviews</h2>
+    </div>
+
+    <div class="testi-grid">
+
+      <div class="testi-card reveal" itemscope itemtype="https://schema.org/Review">
+        <span class="testi-quote" aria-hidden="true">&ldquo;</span>
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-text" itemprop="reviewBody">
+          "Brought Kaju Barfi for our son's wedding — the quality was absolutely outstanding. 
+          Pure taste, beautiful packaging. Every guest was asking where we got it from!"
+        </p>
+        <div class="testi-author">
+          <div class="testi-avatar">SR</div>
+          <div>
+            <div class="testi-name" itemprop="author">Sunita Rawat</div>
+            <div class="testi-meta">⭐ Google Review · Kolkata</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-1" itemscope itemtype="https://schema.org/Review">
+        <span class="testi-quote" aria-hidden="true">&ldquo;</span>
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-text" itemprop="reviewBody">
+          "The shop ambience itself is stunning — AC, beautiful decor, and a huge variety of fresh sweets. 
+          Gulab Jamun here is the best I've had in years. Won't go anywhere else!"
+        </p>
+        <div class="testi-author">
+          <div class="testi-avatar">AK</div>
+          <div>
+            <div class="testi-name" itemprop="author">Amit Kumar</div>
+            <div class="testi-meta">⭐ Google Review · Howrah</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-2" itemscope itemtype="https://schema.org/Review">
+        <span class="testi-quote" aria-hidden="true">&ldquo;</span>
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-text" itemprop="reviewBody">
+          "Ordered 20 kg for Diwali corporate gifting — Kanhaiya handled it perfectly. 
+          On time, beautifully packed, and tasted divine. Highly recommend for bulk orders!"
+        </p>
+        <div class="testi-author">
+          <div class="testi-avatar">PM</div>
+          <div>
+            <div class="testi-name" itemprop="author">Priya Malhotra</div>
+            <div class="testi-meta">⭐ Google Review · Salt Lake</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ LOCATION ═══════════════════ -->
+<section id="location" class="section-pad" aria-labelledby="loc-heading">
+  <div class="container">
+    <div style="margin-bottom:3rem">
+      <span class="label reveal">Find Us</span>
+      <h2 class="heading heading-lg reveal reveal-delay-1" id="loc-heading">Visit Kanhaiya Today</h2>
+      <p class="body-text reveal reveal-delay-2" style="margin-top:0.5rem">We'd love to welcome you — come taste the sweetness in person.</p>
+    </div>
+
+    <div class="loc-inner">
+      <div class="loc-cards reveal">
+
+        <div class="loc-card">
+          <div class="loc-icon">📍</div>
+          <div>
+            <div class="loc-lbl">Address</div>
+            <div class="loc-val">
+              <!-- UPDATE YOUR ADDRESS BELOW -->
+              YOUR SHOP ADDRESS HERE<br />
+              Kolkata, West Bengal
+            </div>
+          </div>
+        </div>
+
+        <div class="loc-card">
+          <div class="loc-icon">🕐</div>
+          <div>
+            <div class="loc-lbl">Opening Hours</div>
+            <div class="loc-val">
+              Mon – Sat: 8:00 AM – 9:30 PM<br />
+              Sunday: 9:00 AM – 8:00 PM
+            </div>
+          </div>
+        </div>
+
+        <div class="loc-card">
+          <div class="loc-icon">📞</div>
+          <div>
+            <div class="loc-lbl">Phone / WhatsApp</div>
+            <div class="loc-val">
+              <!-- UPDATE YOUR PHONE BELOW -->
+              <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a><br />
+              <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer">Chat on WhatsApp →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="loc-card">
+          <div class="loc-icon">✉️</div>
+          <div>
+            <div class="loc-lbl">Email</div>
+            <div class="loc-val">
+              <!-- UPDATE YOUR EMAIL BELOW -->
+              <a href="mailto:info@kanhaiyasweets.in">info@kanhaiyasweets.in</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- REPLACE THE EMBED URL BELOW WITH YOUR ACTUAL GOOGLE MAPS EMBED LINK -->
+      <div class="map-box reveal reveal-delay-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7!2d88.3629!3d22.5726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKolkata!5e0!3m2!1sen!2sin!4v1700000000"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Kanhaiya Sweets Location Map">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CTA STRIP ═══════════════════ -->
+<section id="cta" aria-label="Contact and special orders">
+  <div class="container">
+    <h2 class="heading heading-lg">Celebrating Something <em>Special?</em></h2>
+    <p>Bulk orders &nbsp;·&nbsp; Wedding packages &nbsp;·&nbsp; Corporate gifting &nbsp;·&nbsp; Festival specials</p>
+    <div class="cta-btns">
+      <!-- UPDATE YOUR PHONE BELOW -->
+      <a href="tel:+91XXXXXXXXXX" class="btn btn-gold">Call Us Now</a>
+      <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold">WhatsApp Enquiry →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="logo-wrap">
+          <img src="Logo-removebg-preview.png" alt="Kanhaiya Sweets logo" />
+        </div>
+        <p>Crafting authentic Indian sweets, snacks and bakery items with pure desi ghee and fresh ingredients. Every bite is a piece of our heart.</p>
+        <div class="social-row">
+
+          <!-- Facebook -->
+          <a href="https://facebook.com/kanhaiyasweets" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Follow Kanhaiya Sweets on Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com/kanhaiyasweets" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Follow Kanhaiya Sweets on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Chat with Kanhaiya Sweets on WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </a>
+
+          <!-- YouTube -->
+          <a href="https://youtube.com/@kanhaiyasweets" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Kanhaiya Sweets on YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          </a>
+
+          <!-- Zomato -->
+          <a href="https://zomato.com/kanhaiyasweets" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Kanhaiya Sweets on Zomato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm0 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 14.2a7.2 7.2 0 0 1-6-3.22c.03-2 3.99-3.08 6-3.08s5.97 1.09 6 3.08a7.2 7.2 0 0 1-6 3.22z"/></svg>
+          </a>
+
+          <!-- Swiggy -->
+          <a href="https://swiggy.com/kanhaiyasweets" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Kanhaiya Sweets on Swiggy">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#specialties">Our Sweets</a></li>
+          <li><a href="#why">Why Kanhaiya</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#location">Find Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Sweets -->
+      <div class="footer-col">
+        <h5>Our Sweets</h5>
+        <ul>
+          <li><a href="#specialties">Gulab Jamun</a></li>
+          <li><a href="#specialties">Kaju Barfi</a></li>
+          <li><a href="#specialties">Motichoor Ladoo</a></li>
+          <li><a href="#specialties">Bengali Rasgulla</a></li>
+          <li><a href="#specialties">Gajar Halwa</a></li>
+          <li><a href="#specialties">Jalebi</a></li>
+          <li><a href="#specialties">Namkeen & Snacks</a></li>
+          <li><a href="#specialties">Bakery Items</a></li>
+        </ul>
+      </div>
+
+      <!-- Hours -->
+      <div class="footer-col">
+        <h5>Opening Hours</h5>
+        <div class="footer-hours">
+          <div class="hour-row">
+            <span class="hour-day">Mon – Fri</span>
+            <span class="hour-time">8 AM – 9:30 PM</span>
+          </div>
+          <div class="hour-row">
+            <span class="hour-day">Saturday</span>
+            <span class="hour-time">8 AM – 9:30 PM</span>
+          </div>
+          <div class="hour-row">
+            <span class="hour-day">Sunday</span>
+            <span class="hour-time">9 AM – 8 PM</span>
+          </div>
+          <p class="hour-note">* Hours may vary on public holidays</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer bottom -->
+    <div class="footer-bottom">
+      <p>© 2025 Kanhaiya Sweets · Snacks · Bakery. All rights reserved.</p>
+      <p class="madein">Made with 🍮 for Kolkata</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════ JS ═══════════════════ -->
+<script>
+  /* Nav scroll effect */
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
+
+  /* Hamburger */
+  const hamburger = document.getElementById('hamburger');
+  const navLinks  = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    hamburger.classList.toggle('active', open);
+    hamburger.setAttribute('aria-expanded', open);
+  });
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      hamburger.classList.remove('active');
+      hamburger.setAttribute('aria-expanded', false);
+    });
+  });
+
+  /* Scroll Reveal */
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => revealObs.observe(el));
+
+  /* Nav background on load if already scrolled */
+  document.addEventListener('DOMContentLoaded', () => {
+    if (window.scrollY > 60) navbar.classList.add('scrolled');
+  });
+</script>
+
+</body>
+</html>
